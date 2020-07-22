@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Team Page</title>
+    
+</head>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-text-box-one {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-text-box-two {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.team-info-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box img {
+    width: 100%;
+}
+
+
+.text-box-one {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.045em;
+}
+
+.text-box-two {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.box-two, .box-five {
+    margin-top: 3rem;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #A9A9A9
+}
+
+@media screen and (max-width:768px) {
+    .team-info-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 10px;
+        justify-content: space-around;
+        margin: 2rem
+}
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        margin: 1rem;
+}
+
+    .box-two, .box-four, .box-six {
+        margin-top: 3rem;
+}
+
+    .box-five {
+        margin-top: 0;
+    }
+}
+
+	</style>
+<body>
+    <div class="main-container">
+        <header class="main-header">
+            <h1 class="header-title">The creative crew</h1>
+            <div class="header-text-box">
+                <p class="header-text-box-one">who we are</p>
+                <p class="header-text-box-two">we are a team of creatively diverse driven<br> innovative individuals working in various<br> locations from the world</p>
+            </div>
+        </header>
+    <div class="team-info-container">
+        <div class="info-box">
+            <div class="image-box-one box-one">
+                <img src="/home/anusha/Downloads/my-team-page-master/photo1.png" alt="photo-one">
+                <div class="text-box-one">Bill Mahoney</div>
+            </div>
+            <span class="text-box-two">Product owner</span>
+        </div>
+        <div class="info-box box-two box-two">
+            <div class="image-box-two">
+                <img src="/home/anusha/Downloads/my-team-page-master/photo2.png" alt="photo-two">
+                <div class="text-box-one">Saba Cabrera</div>
+            </div>
+            <span class="text-box-two">Art Director</span>
+        </div>
+        <div class="info-box box-three">
+            <div class="image-box-three ">
+                <img src="/home/anusha/Downloads/my-team-page-master/photo3.png" alt="photo-three">
+                <div class="text-box-one">Shae Le</div>
+            </div>
+            <span class="text-box-two">Tech lead</span>
+        </div>
+        <div class="info-box box-four">
+            <div class="image-box-four ">
+                <img src="/home/anusha/Downloads/my-team-page-master/photo4.png" alt="photo-four">
+                <div class="text-box-one">Skylah Lu</div>
+            </div>
+            <span class="text-box-two">ux designer</span>
+        </div>
+        <div class="info-box box-five">
+            <div class="image-box-five">
+                <img src="/home/anusha/Downloads/my-team-page-master/photo5.png" alt="photo-five">
+                <div class="text-box-one">Griff Richards</div>
+            </div>
+            <span class="text-box-two">Developer</span>
+        </div>
+        <div class="info-box box-six">
+            <div class="image-box-six">
+                <img src="/home/anusha/Downloads/my-team-page-master/photo6.png" alt="photo-six">
+                <div class="text-box-one">Stan John</div>
+            </div>
+            <span class="text-box-two">Developer</span>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
